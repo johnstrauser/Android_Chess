@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Chess</string>
+
+    <string name="action_ai">AI</string>
+    <string name="action_resign">Resign</string>
+    <string name="action_draw">Draw</string>
+    <string name="action_prev">Previous Move</string>
+    <string name="action_next">Next Move</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="startscreen_array">
+
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+        <item>g</item>
+        <item>h</item>
+    </string-array>
+</resources>

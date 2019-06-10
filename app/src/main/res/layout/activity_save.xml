@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_save"
+    tools:context=".SaveGameActivity">
+    <TextView
+        android:id="@+id/header_id"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:id="@+id/save_field"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:inputType="text"
+        android:hint="Enter game name"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:layout_centerInParent="true">
+
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:text="Save Game"
+            android:onClick="actionSave"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/cancelSave"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:text="Cancel"
+            android:onClick="actionCancel"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
